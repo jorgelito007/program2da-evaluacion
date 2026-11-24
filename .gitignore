@@ -1,0 +1,25 @@
+# Archivos de configuración de Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+# Carpetas de compilación
+bin/
+target/
+# Archivos temporales y de sistema
+*.log
+*.tmp
+*.bak
+*.swp
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
+# Archivos de Java que no deben subirse
+*.class
+# Carpetas de Gradle
+.gradle/
+build/
+# Archivos generados por Maven o Gradle (según se use)
+!.mvn/wrapper/maven-wrapper.jar # Este sí se puede subir si se usa Maven Wrapper
